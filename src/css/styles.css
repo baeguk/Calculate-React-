@@ -1,0 +1,39 @@
+.Calculator {
+  background-color: lavender;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px auto;
+  border: rgb(99, 142, 143) 3px solid;
+  border-radius: 5px;
+}
+.Calculator .complete-operation,
+.Calculator .num {
+  border: rgb(99, 142, 143) 3px solid;
+  margin: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(99, 142, 143);
+  color: #fefefe;
+  font-weight: bold;
+}
+.Calculator .buttons {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.Calculator .buttons button {
+  border: rgb(99, 142, 143) 3px solid;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(99, 142, 143);
+  color: #fefefe;
+}
+.Calculator .buttons button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
